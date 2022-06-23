@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4314715789331123784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7882910415619349234}
+  - component: {fileID: -7558051682354344712}
+  - component: {fileID: 2234412407701241268}
+  - component: {fileID: 4037169899724174201}
+  m_Layer: 0
+  m_Name: PlayerManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7882910415619349234
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4314715789331123784}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 708.41266, y: 348.56995, z: -235.20146}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-7558051682354344712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4314715789331123784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f6f2e46e7f3f8147be5e69ba5ade71f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  GameManager: {fileID: 0}
+  Ping: {fileID: 6698809748210893588, guid: c61ebb3b1a3c0674ab15fcc3d49ae24b, type: 3}
+  Burda: {fileID: 4559217523185072332, guid: 1e8fc88f79e1b4a06a70e9542a670ff9, type: 3}
+  DegidroFas: {fileID: 1064671527007413288, guid: 294c29573ff704af3acd83dcb764ebe2,
+    type: 3}
+  DegidroKov: {fileID: 1344153109259356951, guid: eb5f2654b9498423f9a0db9075a18656,
+    type: 3}
+  Ftor: {fileID: 8897052409209061186, guid: eb20c49c022bb440296fb060f495b2dd, type: 3}
+  FtoridHlora: {fileID: 8160504933776627854, guid: 4f6d4b1dce1f64affbe614b1a756e59b,
+    type: 3}
+  Ftorovodorod: {fileID: 3910136779025058991, guid: 7b070c9044ff7450e91ab2befaf4716b,
+    type: 3}
+  Hlor: {fileID: 3619359879558739580, guid: 57d7cdb7be5d24291bed90082137248f, type: 3}
+  Hlorid: {fileID: 8814508622898253485, guid: 5d0d6b0762478491e84dc16a3f55b2ca, type: 3}
+  HloridFtor: {fileID: 7731353630753499240, guid: 97f78c17be6794a6d895e5f5d3f0889f,
+    type: 3}
+  HloridKal: {fileID: 4487102089160763331, guid: 721e577d670484365933fd626ddd366f,
+    type: 3}
+  Hlorovodorod: {fileID: 1669816402410489394, guid: a6fc6ffa233a140ccbe4666669def0e5,
+    type: 3}
+  Ortofosforn: {fileID: 2135750996096553693, guid: 19c705bd4f0a949c6989c878f611dd2a,
+    type: 3}
+  Solyan: {fileID: 2588121781862689705, guid: c4cae4bd1944440598b0c320f8c3c72e, type: 3}
+  PlayerArea: {fileID: 0}
+  EnemyArea: {fileID: 0}
+  PlayerSlot1: {fileID: 0}
+  PlayerSlot2: {fileID: 0}
+  PlayerSlot3: {fileID: 0}
+  PlayerSlot4: {fileID: 0}
+  PlayerSlot5: {fileID: 0}
+  EnemySlot1: {fileID: 0}
+  EnemySlot2: {fileID: 0}
+  EnemySlot3: {fileID: 0}
+  EnemySlot4: {fileID: 0}
+  EnemySlot5: {fileID: 0}
+  PCombineSlot1: {fileID: 0}
+  PCombineSlot2: {fileID: 0}
+  ECombineSlot1: {fileID: 0}
+  ECombineSlot2: {fileID: 0}
+  PlayerYard: {fileID: 0}
+  EnemyYard: {fileID: 0}
+  ReadyToCombine: 0
+  PlayerSockets: []
+  PlayerCombinerSockets: []
+  EnemySockets: []
+  EnemyCombinerSockets: []
+  FirstCombineSocketIsBusy: 0
+  SecondCombineSocketIsBusy: 0
+  FirstEnemyCombineSocketIsBusy: 0
+  SecondEnemyCombineSocketIsBusy: 0
+  CardsPlayed: 0
+  IsMyTurn: 0
+  combine: 0
+--- !u!114 &2234412407701241268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4314715789331123784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: 0
+  serverOnly: 0
+  m_AssetId: 
+--- !u!114 &4037169899724174201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4314715789331123784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f74aedd71d9a4f55b3ce499326d45fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  clientAuthority: 1
+  localPositionSensitivity: 0.01
+  localRotationSensitivity: 0.01
+  localScaleSensitivity: 0.01
+  compressRotation: 1
